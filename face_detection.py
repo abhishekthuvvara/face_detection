@@ -30,6 +30,7 @@ while True:
         minSize=(30, 30)
     )
     
+    
     # Draw rectangles and text around detected faces
     for (x, y, w, h) in faces:
         cv2.rectangle(
